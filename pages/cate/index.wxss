@@ -1,0 +1,81 @@
+/* pages/cate/index.wxss */
+page{
+  height: inherit;
+}
+.main {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+}
+.main .left  {
+  flex:3;
+  height: 100%;
+  border-right: 1px solid #ccc;
+}
+.main .left .cate{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding: 6px;
+  border-bottom: 1px solid white;
+  background: #ccc;
+}
+.main .left .active{
+  background: cornsilk;
+}
+.main .right {
+  padding: 5px;
+  height: 100%;
+  background: antiquewhite;
+  flex:8;
+}
+
+.main .right .info{
+  height: 85px;
+  border-bottom: 1px solid #ccc;
+}
+.main .right .info .image{
+  width: 80px;
+  height: 80px;
+  float:left;
+}
+.main .right .info image{
+  position: relative;
+  width: inherit;
+  height: inherit;
+  
+}
+.main .right .info .content{
+  padding: 5px;
+}
+.main .right .info text{
+  display: inline-block;
+}
+.main .right .info .content .name{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: block;
+}
+.main .right .info .content .price{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: inline-block;
+}
+.main .right .info .content .money{
+  color:red;
+  display: inline-block;
+}
+.main .right .info .content .add{
+  display: block;
+  padding: 3px;
+  position: absolute;
+  left: 91%;
+  border-radius: 50%;
+  background: yellow;
+  font-weight: bold;
+}

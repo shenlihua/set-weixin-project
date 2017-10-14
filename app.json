@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/cate/index",
+    "pages/member/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "red",
+    "selectedColor": "green",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/pages/images/png-0575.png",
+        "selectedIconPath": "/pages/images/png-0576.png" 
+      },
+      {
+        "pagePath": "pages/cate/index",
+        "text": "分类",
+        "iconPath": "/pages/images/png-0575.png",
+        "selectedIconPath": "/pages/images/png-0576.png"
+      },
+      {
+        "pagePath": "pages/member/index",
+        "text": "我的",
+        "iconPath": "/pages/images/png-0575.png",
+        "selectedIconPath": "/pages/images/png-0576.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

@@ -1,0 +1,70 @@
+.top-swiper {
+  text-align: center;
+}
+.content {
+  padding:0% 2%;
+}
+
+.content .tip {
+  margin-bottom: 10px;
+}
+.content .tip text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid #cfcfcf;
+  border-top: 10px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+}
+
+.content .more {
+}
+.content .more .list{
+  margin: 4px;
+  display: inline-block;
+  width: 46%;
+  height: 175px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.content .more .list image {
+  padding: 1%;
+  width: 98%;
+  height: 120px;
+  
+}
+.content .more .list .little  {
+  text-align: left;
+  padding-left: 5px;
+  border-top: 1px solid #ccc;
+}
+.content .more .list .little .name {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: block;
+}
+.content .more .list .little .price {
+  display: inline-block;
+  width: 54%;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+.content .more .list .little .price .money {
+  color:red;
+}
+.content .more .list .little .stock {
+  display: inline-block;
+  text-align: right;
+  width: 44%;
+  color:#c0c0c0;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}

@@ -1,0 +1,23 @@
+<!--pages/cate/index.wxml-->
+<view class="main">
+  <view class="left">
+    <view class="cate active">全部</view>
+    <view class="cate">分类一</view>
+    <view class="cate">分类二</view>
+    <view class="cate">分类三</view>
+    <view class="cate">分类四</view>
+  </view>
+  <view class="right">
+    <view class="info">
+      <view class="image">
+       <image src="/pages/images/1-7.jpeg" mode="aspectFit"/>
+      </view>
+     
+      <view class="content">
+        <text class="name">商品名称</text>
+        <text class="price">价格:<text class="money">9999.99</text></text>
+        <text class="add">＋</text>
+      </view>
+    </view>
+  </view>
+</view>
