@@ -24,58 +24,72 @@ page{
   background: cornsilk;
 }
 .main .right {
-  padding: 5px;
+  padding-left: 5px;
   height: 100%;
-  background: antiquewhite;
   flex:8;
 }
-
+.main .right .cate-name{
+  padding: 4px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background: #c9c9c9;
+}
 .main .right .info{
+  display: flex;
+  flex-direction: row;
   height: 85px;
   border-bottom: 1px solid #ccc;
 }
 .main .right .info .image{
   width: 80px;
   height: 80px;
-  float:left;
 }
 .main .right .info image{
-  position: relative;
   width: inherit;
   height: inherit;
   
 }
 .main .right .info .content{
+  flex:1;
   padding: 5px;
 }
 .main .right .info text{
-  display: inline-block;
+  display: block;
 }
 .main .right .info .content .name{
   overflow: hidden;
   text-overflow:ellipsis;
   white-space: nowrap;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  display: block;
-}
-.main .right .info .content .price{
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  display: inline-block;
+  margin-bottom: 14px;
 }
+
 .main .right .info .content .money{
+   font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: block;
   color:red;
+}
+.main .right .info .content .sale{
+  width: 85%;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ccc;
   display: inline-block;
 }
 .main .right .info .content .add{
-  display: block;
-  padding: 3px;
-  position: absolute;
-  left: 91%;
-  border-radius: 50%;
-  background: yellow;
+
+  text-align: center;
+  border-radius: 50px;
+  display: inline-block;
+  background: #b705a0;
   font-weight: bold;
+  font-size: 14px;
+  padding: 2px;
+  color: white;
 }
